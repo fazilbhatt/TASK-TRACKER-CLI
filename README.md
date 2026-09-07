@@ -1,4 +1,4 @@
-Task Tracker CLI
+TASK TRACKER CLI
 
 A lightweight, dependency-free command-line interface (CLI) task management utility written in Python.
 It provides standard terminal commands to create, update, track, and delete tasks with local JSON file persistence.
@@ -22,12 +22,20 @@ Run commands using python task_tracker.py <command> [args].
 Usage & Commands
 
 Add a new task:- [python task_tracker.py add "Task description"]
+
 List all tasks:- [python task_tracker.py list]
+
 Filter tasks by status (todo, in-progress, done):- [python task_tracker.py list todo], [python task_tracker.py list in-progress], [python task_tracker.py list done]
+
 Mark a task as in-progress:- [python task_tracker.py mark-in-progress 1]
+
 Mark a task as done:- [python task_tracker.py mark-done 1]
+
 Update task description:- [python task_tracker.py update 1 "Updated description"]
+
 Delete a task:- [python task_tracker.py delete 1]
+
+
 
 Storage Format (tasks.json)
 
